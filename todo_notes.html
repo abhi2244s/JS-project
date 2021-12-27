@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    #cont_1 {
+        border: 1px solid green;
+        height: 100px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #con_2 {
+        margin-top: 20px;
+    }
+
+    #btn {
+        padding: 10px;
+        font-size: 17px;
+        margin-top: 10px;
+
+    }
+
+    #con-3 {
+        border: 1px solid red;
+        height: 300px;
+        display: flex;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .flex-1 {
+        flex-basis: 25%;
+        border: 1px solid brown;
+        height: 300px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div id="cont_1">
+        <label>
+            Name:
+            <input id="name" type="text">
+        </label>
+        <label>
+            UserName
+            <input id="user" type="text">
+        </label>
+        <label>
+            DOB:
+            <input id="dob" type="date">
+        </label>
+        <label>
+            Email:
+            <input id="Email" type="email">
+        </label>
+        <div>
+
+            <button id="btn">Add todo</button>
+        </div>
+
+    </div>
+    <div id="con-3">
+        <div class="flex-1" id="name-1">
+            <h3>Name</h3>
+            <div id="del">
+                
+            </div>
+        </div>
+        <div class="flex-1" id="user-1">
+            <h3>UserName</h3>
+            <div id="del-1">
+                
+            </div>
+        </div>
+        <div class="flex-1" id="email-1">
+            <h3>Email</h3>
+            <div id="del-2">
+                
+            </div>
+        </div>
+        <div class="flex-1" id="dob-1">
+            <h3>DOB</h3>
+            <div id="del-3">
+                
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="todo_notes.js"></script>
+
+
+</body>
+
+</html>
